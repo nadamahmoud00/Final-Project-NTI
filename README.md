@@ -7,13 +7,13 @@
 
 This dataset contains detailed ride-sharing data from Uber operations for 2024, including:
 
-Booking details (Booking ID, status, locations, times)
+  Booking details (Booking ID, status, locations, times)
 
-Vehicle information (type, performance, distance, value)
+  Vehicle information (type, performance, distance, value)
 
-Customer & driver behavior (ratings, cancellations, reasons)
+  Customer & driver behavior (ratings, cancellations, reasons)
 
-Financial metrics (booking value, payment methods)
+  Financial metrics (booking value, payment methods)
 
 
 
@@ -21,11 +21,11 @@ Financial metrics (booking value, payment methods)
 
 We started with data cleaning & preprocessing:
 
-Handling missing values.
+  Handling missing values.
 
-Encoding categorical features.
+  Encoding categorical features.
 
-Normalizing numerical variables.
+  Normalizing numerical variables.
 
 Then we performed EDA to explore patterns:
 
@@ -48,9 +48,9 @@ Then we performed EDA to explore patterns:
 
 To predict ride cancellations & satisfaction outcomes, we tested two models:
 
-Logistic Regression → provided baseline classification results.
+   Logistic Regression → provided baseline classification results.
 
-Random Forest Classifier → improved accuracy with non-linear relationships.
+   Random Forest Classifier → improved accuracy with non-linear relationships.
 
 Evaluation metrics included:
 
